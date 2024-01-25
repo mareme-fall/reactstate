@@ -1,0 +1,61 @@
+/* App.css */
+
+/* styles de base pour éviter les différences entre les navigateurs */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0077ff;
+}
+
+/* Conteneur principal avec une largeur */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style pour les titres principaux */
+h1 {
+  color:#fff ;
+}
+/* Style du bouton d'affichage*/
+button {
+  padding: 10px;
+  background-color:#2100b3 ;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Changement de couleur au survol du bouton */
+button:hover {
+  background-color: #001aff;
+}
+
+/* Style du conteneur du profil de la personne */
+.person-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #fff;
+  
+}
+
+/* Style de l'image dans le profil de la personne */
+.person-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Style du texte affichant le temps écoulé  */
+.elapsed-time {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
